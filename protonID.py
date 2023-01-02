@@ -19,7 +19,6 @@ def parse_args():
             description="ProtonID: Check if an email address or domain uses protonmail.")
     parser.add_argument('-e', '--email', action='store', help="Check a single email")
     parser.add_argument('-l', '--list', action='store', help="Checks every domain in a list.")
-    print(parser.print_help())
     return parser.parse_args()
 
 args = parse_args()
@@ -58,5 +57,4 @@ if args.list:
 
 if args.email:
     split_email(args.email)
-    print(domains)
     dns_query(domains[0])
