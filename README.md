@@ -1,6 +1,5 @@
 # ProtonID
-I recently had a need to identify a large number of emails/domains to see if they had protonmail accounts. I checked this by seeing if they had proton's MX re
-cords set up.
+I recently had a need to identify a large number of emails/domains to see if they had protonmail accounts. I checked this by seeing if they had proton's MX records set up.
 ![image](https://user-images.githubusercontent.com/19278569/210284808-a5d629c4-105c-4070-a01e-a0fd051dcb5b.png)
 
 ![image](https://user-images.githubusercontent.com/19278569/210284867-2179f8cf-fa73-4561-95ce-98d02a900762.png)
